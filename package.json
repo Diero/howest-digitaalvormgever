@@ -1,0 +1,26 @@
+{
+    "name": "howest-digitaalvormgever",
+    "displayName": "Multimedia en Informatietechnologie - Digitaal Vormgever",
+    "description": "Dit is een extensie voor de opleiding Multimedia en Informatietechnologie van Howest",
+    "publisher": "Howest-DigitaalVormgever",
+    "icon": "images/logo.png",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "css",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "scss",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

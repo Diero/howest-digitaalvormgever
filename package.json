@@ -5,6 +5,7 @@
     "publisher": "Howest-DigitaalVormgever",
     "icon": "images/logo.png",
     "version": "0.1.0",
+    "repository": "https://github.com/Diero/howest-digitaalvormgever",
     "engines": {
         "vscode": "^1.62.0"
     },

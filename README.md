@@ -8,18 +8,24 @@ This is an extension for students of the Assiociate Degree Programme Information
 
 This extension contains snippets used in the courses:
 
-- `mit-itcss`: creating ITCSS-structure in CSS/SCSS (without Bootstrap)
-- `mit-itcss-bootstrap`: creating ITCSS-structure in CSS/SCSS (with Bootstrap section)
+- `dv-itcss`: creating ITCSS-structure in CSS/SCSS (without Bootstrap)
+- `dv-itcss-bootstrap`: creating ITCSS-structure in CSS/SCSS (with Bootstrap section)
+- `dv-mediaquery-min`: creating mediaquery from specific Bootstrap breakpoint
+- `dv-mediaquery-max`: creating mediaquery to specific Bootstrap breakpoint
 
 ## Requirements
 
-No specific requierments for this extension
+No specific requirements for this extension
 
 ## Known Issues
 
 No known issues for this extension
 
 ## Release Notes
+
+### 0.2.0
+- Changed snippet prefix from 'mit-' to 'dv-'
+- Added two new snippets for generating mediaqueries at Bootstrap breakpoints.
 
 ### 0.1.1
 

@@ -1,20 +1,22 @@
-{ "IT-CSS Structure":{
-      "prefix":"dv-css-itcss",
-      "body":["$BLOCK_COMMENT_START---------------------------------------/*"," # SETTINGS","/*---------------------------------------$BLOCK_COMMENT_END","","$BLOCK_COMMENT_START---------------------------------------/*"," # GENERIC","/*---------------------------------------$BLOCK_COMMENT_END","","$BLOCK_COMMENT_START---------------------------------------/*"," # ELEMENTS","/*---------------------------------------$BLOCK_COMMENT_END","","$BLOCK_COMMENT_START---------------------------------------/*"," # OBJECTS","/*---------------------------------------$BLOCK_COMMENT_END","","$BLOCK_COMMENT_START---------------------------------------/*"," # COMPONENTS","/*---------------------------------------$BLOCK_COMMENT_END","","$BLOCK_COMMENT_START---------------------------------------/*"," # UTILITIES","/*---------------------------------------*/"],
-      "description":"IT-CSS Structure"},
-  "IT-CSS Structure with Bootstrap":{
-    "prefix":"dv-css-itcssbootstrap",
-    "body":["$BLOCK_COMMENT_START---------------------------------------/*"," # SETTINGS","/*---------------------------------------$BLOCK_COMMENT_END","","$BLOCK_COMMENT_START---------------------------------------/*"," # GENERIC","/*---------------------------------------$BLOCK_COMMENT_END","","$BLOCK_COMMENT_START---------------------------------------/*"," # ELEMENTS","/*---------------------------------------$BLOCK_COMMENT_END","","$BLOCK_COMMENT_START---------------------------------------/*"," # OBJECTS","/*---------------------------------------$BLOCK_COMMENT_END","","$BLOCK_COMMENT_START---------------------------------------/*"," # COMPONENTS","/*---------------------------------------$BLOCK_COMMENT_END","","$BLOCK_COMMENT_START---------------------------------------/*"," # BOOTSTRAP","/*---------------------------------------$BLOCK_COMMENT_END","","$BLOCK_COMMENT_START---------------------------------------/*"," # UTILITIES","/*---------------------------------------*/"],
-    "description":"IT-CSS Structure with Bootstrap"
+{
+  "IT-CSS Structure": {
+    "prefix": "dv-css-itcss",
+    "body": ["$BLOCK_COMMENT_START---------------------------------------/*", " # SETTINGS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # GENERIC", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # ELEMENTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # OBJECTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # COMPONENTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # UTILITIES", "/*---------------------------------------*/"],
+    "description": "IT-CSS Structure"
   },
-  "media query (min)":{
-    "prefix":"dv-mediaquery-min",
-    "body":["@media (min-width: ${1|576,768,992,1200,1400|}px) {","\t ${0}", "}",""],
-    "description":"Creating mediaquery from specific Bootstrap breakpoint"
+  "IT-CSS Structure with Bootstrap": {
+    "prefix": "dv-css-itcssbootstrap",
+    "body": ["$BLOCK_COMMENT_START---------------------------------------/*", " # SETTINGS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # GENERIC", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # ELEMENTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # OBJECTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # COMPONENTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # BOOTSTRAP", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # UTILITIES", "/*---------------------------------------*/"],
+    "description": "IT-CSS Structure with Bootstrap"
   },
-  "media query (max)":{
-    "prefix":"dv-mediaquery-max",
-    "body":["@media (max-width: ${1|576,768,992,1200,1400|}px) {","\t ${0}", "}",""],
-    "description":"Creating mediaquery to specific Bootstrap breakpoint"
+  "media query (min)": {
+    "prefix": "dv-mediaquery-min",
+    "body": ["@media (min-width: ${1|576,768,992,1200,1400|}px) {", "\t ${0}", "}", ""],
+    "description": "Creating mediaquery from specific Bootstrap breakpoint"
+  },
+  "media query (max)": {
+    "prefix": "dv-mediaquery-max",
+    "body": ["@media (max-width: ${1|576,768,992,1200,1400|}px) {", "\t ${0}", "}", ""],
+    "description": "Creating mediaquery to specific Bootstrap breakpoint"
   }
 }

@@ -1,6 +1,6 @@
 # Multimedia en Informatietechnologie - Digitaal Vormgever README
 
-This is a Visual Code Extension written for Assiociate Degree Programme [Information Technology (Kortrijk)](https://www.howest.be/MIT) at [Howest University of Applied Sciences](https://howest.be).
+This is a Visual Code Extension written for Associate Degree Programme [Information Technology (Kortrijk)](https://www.howest.be/MIT) at [Howest University of Applied Sciences](https://howest.be).
 
 ## Features
 
@@ -22,6 +22,9 @@ No specific requirements for this extension
 No known issues for this extension
 
 ## Release Notes
+
+### 0.3.0
+- Added three new javascriptsnippets for handling data, creating dataregions and adding a domcontentloadedevent.
 
 ### 0.2.0
 - Changed snippet prefix from 'mit-' to 'dv-'

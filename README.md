@@ -22,6 +22,9 @@ No specific requirements for this extension
 No known issues for this extension
 
 ## Release Notes
+### 0.4.2
+- Release patch, development troubels
+
 ### 0.4.1
 - Release patch, development troubels
 

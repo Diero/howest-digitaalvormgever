@@ -1,18 +1,30 @@
 # Multimedia en Informatietechnologie - Digitaal Vormgever README
 
-This is a Visual Code Extension written for Associate Degree Programme [Information Technology (Kortrijk)](https://www.howest.be/MIT) at [Howest University of Applied Sciences](https://howest.be).
+This is a Visual Code Extension written for Associate Degree Programme [Digital Design (Kortrijk)](https://https://www.howest.be/nl/opleidingen/graduaat/digitale-vormgeving) and Bachelor Degree Programme [Multimedia and Creative Technology (Kortrijk)](https://https://www.howest.be/mct), both at [Howest University of Applied Sciences](https://howest.be/en).
 
 ## Features
 
-This is an extension for students of the Assiociate Degree Programme Information Technology (Kortrijk).
-
 This extension contains snippets used in the courses:
+- Web Development
+- Advanced Web development
+- Scripting
+- Front-end
+- Full Stack Web Development
 
-- `dv-itcss`: creating ITCSS-structure in CSS/SCSS (without Bootstrap)
-- `dv-itcss-bootstrap`: creating ITCSS-structure in CSS/SCSS (with Bootstrap section)
-- `dv-mediaquery-min`: creating mediaquery from specific Bootstrap breakpoint
-- `dv-mediaquery-max`: creating mediaquery to specific Bootstrap breakpoint
 
+### CSS Snippets
+- `dv-itcss`<sup>*</sup>: creating ITCSS-structure in CSS/SCSS (without Bootstrap)
+- `dv-itcss-bootstrap`<sup>*</sup>: creating ITCSS-structure in CSS/SCSS (with Bootstrap section)
+- `dv-mediaquery-min`<sup>*</sup>: creating mediaquery from specific Bootstrap breakpoint
+- `dv-mediaquery-max`<sup>*</sup>: creating mediaquery to specific Bootstrap breakpoint
+
+### JS Snippets
+-  `dv-handledata`<sup>*</sup>: create a handleData function (basic)"
+- `dv-domcontentloaded`<sup>*</sup>: create a DOMContentLoaded eventlistener
+- `dv-dataregion`<sup>*</sup>: create regions for Javascript Data Access
+
+
+<sup>*</sup> All `dv` prefixes can be replaced with `mct` prefixes, as prefered
 ## Requirements
 
 No specific requirements for this extension
@@ -22,11 +34,14 @@ No specific requirements for this extension
 No known issues for this extension
 
 ## Release Notes
+### 0.4.3
+- From now on you can choose between the snippet prefixes `dv-` and `mct-`.
+
 ### 0.4.2
-- Release patch, development troubels
+- Release patch, development troubles
 
 ### 0.4.1
-- Release patch, development troubels
+- Release patch, development troubles
 
 ### 0.4.0
 - Accidental minor release
@@ -35,7 +50,7 @@ No known issues for this extension
 - Added three new javascriptsnippets for handling data, creating dataregions and adding a domcontentloadedevent.
 
 ### 0.2.0
-- Changed snippet prefix from 'mit-' to 'dv-'
+- Changed snippet prefix from `mit-` to `dv-`
 - Added two new snippets for generating mediaqueries at Bootstrap breakpoints.
 
 ### 0.1.1

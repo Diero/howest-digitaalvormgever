@@ -34,8 +34,9 @@ No specific requirements for this extension
 No known issues for this extension
 
 ## Release Notes
-### 0.4.4
+### 0.6.1
 - Added a javascriptsnippet for handling data with bearer token authorization
+- Fix documentation
 
 ### 0.4.3
 - From now on you can choose between the snippet prefixes `dv-` and `mct-`.

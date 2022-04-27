@@ -19,7 +19,8 @@ This extension contains snippets used in the courses:
 - `dv-mediaquery-max`<sup>*</sup>: creating mediaquery to specific Bootstrap breakpoint
 
 ### JS Snippets
--  `dv-handledata`<sup>*</sup>: create a handleData function (basic)"
+- `dv-handledata`<sup>*</sup>: create a handleData function (basic)
+- `dv-authorization-handledata`<sup>*</sup>: create a handleData function (with bearer token authorization)
 - `dv-domcontentloaded`<sup>*</sup>: create a DOMContentLoaded eventlistener
 - `dv-dataregion`<sup>*</sup>: create regions for Javascript Data Access
 
@@ -30,10 +31,12 @@ This extension contains snippets used in the courses:
 No specific requirements for this extension
 
 ## Known Issues
-
 No known issues for this extension
 
 ## Release Notes
+### 0.4.4
+- Added a javascriptsnippet for handling data with bearer token authorization
+
 ### 0.4.3
 - From now on you can choose between the snippet prefixes `dv-` and `mct-`.
 
@@ -54,10 +57,8 @@ No known issues for this extension
 - Added two new snippets for generating mediaqueries at Bootstrap breakpoints.
 
 ### 0.1.1
-
 - Changed logo to transparent background
 - Added snippet schortcodes to features section in readme.
 
 ### 0.1.0
-
 - First release of the extension with a few CSS/SCSS snippets.

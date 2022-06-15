@@ -34,6 +34,9 @@ No specific requirements for this extension
 No known issues for this extension
 
 ## Release Notes
+### 0.6.3
+- Fix: Bad Publishing
+
 ### 0.6.2
 - Fix: [Issue](https://github.com/Diero/howest-digitaalvormgever/issues/1#issue-1271884562): Bootstrap ITCSS
 

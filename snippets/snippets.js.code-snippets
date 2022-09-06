@@ -1,21 +1,21 @@
 {
   "Create a handleData function (basic)": {
-    "prefix": ["dv-handledata", "mct-handledata"],
+    "prefix": ["wdd-handledata", "mct-handledata"],
     "body": ["const handleData = function (url, callbackFunctionName, callbackErrorFunctionName = null, method = 'GET', body = null) {\n  fetch(url, {\n\tmethod: method,\n\tbody: body,\n\theaders: {\n\t  'content-type': 'application/json'\n\t},\n  })\n\t.then(function(response) {\n\t\tif (!response.ok) {\n\t\t\tconsole.warn(`>> Probleem bij de fetch(). Statuscode: ${response.status}`);\n\t\t\tif (callbackErrorFunctionName) {\n\t\t\t\tconsole.warn(`>> Callback errorfunctie ${callbackErrorFunctionName.name}(response) wordt opgeroepen`);\n\t\t\t\tcallbackErrorFunctionName(response); \n\t\t\t} else {\n\t\t\t\tconsole.warn('>> Er is geen callback errorfunctie meegegeven als parameter');\n\t\t\t}\n\t\t} else {\n\t\t\tconsole.info('>> Er is een response teruggekomen van de server');\n\t\t\treturn response.json();\n\t\t}\n\t})\n\t.then(function(jsonObject) {\n\t\tif (jsonObject) {\n\t\t\tconsole.info('>> JSONobject is aangemaakt');\n\t\t\tconsole.info(`>> Callbackfunctie ${callbackFunctionName.name}(response) wordt opgeroepen`);\n\t\t\tcallbackFunctionName(jsonObject);\n\t\t}\n\t})\n\t.catch(function(error) {\n\t\tconsole.warn(`>>fout bij verwerken json: \\${error\\}`);\n\t\t\tif (callbackErrorFunctionName) {\n\t\t\tcallbackErrorFunctionName(undefined);\n\t\t}\n\t})\n};"],
     "description": "Adding handleDatafunction to a JS file"
   },
   "Create a handleData function (with authorization)": {
-    "prefix": ["dv-authorization-handledata", "mct-authorization-handledata"],
+    "prefix": ["wdd-authorization-handledata", "mct-authorization-handledata"],
     "body": ["const handleData = function (url, callbackFunctionName, callbackErrorFunctionName = null, method = 'GET', body = null, authToken = null) {\n  fetch(url, {\n\tmethod: method,\n\tbody: body,\n\theaders: {\n\t  'content-type': 'application/json',\n\t  'Authorization': `Bearer \\${authToken\\}`\n\t},\n  })\n\t.then(function(response) {\n\t\tif (!response.ok) {\n\t\t\tconsole.warn(`>> Probleem bij de fetch(). Statuscode: ${response.status}`);\n\t\t\tif (callbackErrorFunctionName) {\n\t\t\t\tconsole.warn(`>> Callback errorfunctie ${callbackErrorFunctionName.name}(response) wordt opgeroepen`);\n\t\t\t\tcallbackErrorFunctionName(response); \n\t\t\t} else {\n\t\t\t\tconsole.warn('>> Er is geen callback errorfunctie meegegeven als parameter');\n\t\t\t}\n\t\t} else {\n\t\t\tconsole.info('>> Er is een response teruggekomen van de server');\n\t\t\treturn response.json();\n\t\t}\n\t})\n\t.then(function(jsonObject) {\n\t\tif (jsonObject) {\n\t\t\tconsole.info('>> JSONobject is aangemaakt');\n\t\t\tconsole.info(`>> Callbackfunctie ${callbackFunctionName.name}(response) wordt opgeroepen`);\n\t\t\tcallbackFunctionName(jsonObject);\n\t\t}\n\t})\n\t.catch(function(error) {\n\t\tconsole.warn(`>>fout bij verwerken json: \\${error\\}`);\n\t\t\tif (callbackErrorFunctionName) {\n\t\t\tcallbackErrorFunctionName(undefined);\n\t\t}\n\t})\n};"],
     "description": "Adding handleDatafunction with bearer token authorization to a JS file"
   },
   "Create a DOMContentLoaded eventlistener": {
-    "prefix": ["dv-domcontentloaded", "mct-domcontentloaded"],
+    "prefix": ["wdd-domcontentloaded", "mct-domcontentloaded"],
     "body": ["const init = function(){", "\t$0", "}", "", "document.addEventListener('DOMContentLoaded',init);"],
     "description": "Create a DOMContentLoaded eventlistener"
   },
   "Create regions for Javascript Data Access": {
-    "prefix": ["dv-dataregion", "mct-dataregion"],
+    "prefix": ["wdd-dataregion", "mct-dataregion"],
     "body": [
       "$LINE_COMMENT #region ***  DOM references                           ***********", "$LINE_COMMENT #endregion", "", "$LINE_COMMENT #region ***  Callback-Visualisation - show___         ***********", "$LINE_COMMENT #endregion", "", "$LINE_COMMENT #region ***  Callback-No Visualisation - callback___  ***********", "$LINE_COMMENT #endregion", "", "$LINE_COMMENT #region ***  Data Access - get___                     ***********", "$LINE_COMMENT #endregion", "", "$LINE_COMMENT #region ***  Event Listeners - listenTo___            ***********", "$LINE_COMMENT #endregion", "", "$LINE_COMMENT #region ***  Init / DOMContentLoaded                  ***********", "$0", "$LINE_COMMENT #endregion"
     ],

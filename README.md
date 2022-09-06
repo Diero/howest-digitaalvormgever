@@ -1,6 +1,6 @@
 # Multimedia en Informatietechnologie - Digitaal Vormgever README
 
-This is a Visual Code Extension written for Associate Degree Programme [Digital Design (Kortrijk)](https://https://www.howest.be/nl/opleidingen/graduaat/digitale-vormgeving) and Bachelor Degree Programme [Multimedia and Creative Technology (Kortrijk)](https://https://www.howest.be/mct), both at [Howest University of Applied Sciences](https://howest.be/en).
+This is a Visual Code Extension written for Associate Degree Programme [Web Development & esign (Kortrijk)](https://https://www.howest.be/WDD) and Bachelor Degree Programme [Multimedia and Creative Technology (Kortrijk)](https://https://www.howest.be/mct), both at [Howest University of Applied Sciences](https://howest.be/en).
 
 ## Features
 
@@ -13,19 +13,19 @@ This extension contains snippets used in the courses:
 
 
 ### CSS Snippets
-- `dv-itcss`<sup>*</sup>: creating ITCSS-structure in CSS/SCSS (without Bootstrap)
-- `dv-itcss-bootstrap`<sup>*</sup>: creating ITCSS-structure in CSS/SCSS (with Bootstrap section)
-- `dv-mediaquery-min`<sup>*</sup>: creating mediaquery from specific Bootstrap breakpoint
-- `dv-mediaquery-max`<sup>*</sup>: creating mediaquery to specific Bootstrap breakpoint
+- `wdd-itcss`<sup>*</sup>: creating ITCSS-structure in CSS/SCSS (without Bootstrap)
+- `wdd-itcss-bootstrap`<sup>*</sup>: creating ITCSS-structure in CSS/SCSS (with Bootstrap section)
+- `wdd-mediaquery-min`<sup>*</sup>: creating mediaquery from specific Bootstrap breakpoint
+- `wdd-mediaquery-max`<sup>*</sup>: creating mediaquery to specific Bootstrap breakpoint
 
 ### JS Snippets
-- `dv-handledata`<sup>*</sup>: create a handleData function (basic)
-- `dv-authorization-handledata`<sup>*</sup>: create a handleData function (with bearer token authorization)
-- `dv-domcontentloaded`<sup>*</sup>: create a DOMContentLoaded eventlistener
-- `dv-dataregion`<sup>*</sup>: create regions for Javascript Data Access
+- `wdd-handledata`<sup>*</sup>: create a handleData function (basic)
+- `wdd-authorization-handledata`<sup>*</sup>: create a handleData function (with bearer token authorization)
+- `wdd-domcontentloaded`<sup>*</sup>: create a DOMContentLoaded eventlistener
+- `wdd-dataregion`<sup>*</sup>: create regions for Javascript Data Access
 
 
-<sup>*</sup> All `dv` prefixes can be replaced with `mct` prefixes, as prefered
+<sup>*</sup> All `wdd-` prefixes can be replaced with `mct-` prefixes, as prefered
 ## Requirements
 
 No specific requirements for this extension
@@ -34,6 +34,9 @@ No specific requirements for this extension
 No known issues for this extension
 
 ## Release Notes
+### 0.6.4
+- Changed snippet prefixes `dv-` to `wdd-` according to the new name of the Associate Degree programme.
+
 ### 0.6.3
 - Fix: Bad Publishing
 

@@ -34,7 +34,7 @@ No specific requirements for this extension
 No known issues for this extension
 
 ## Release Notes
-### 0.6.4
+### 0.7
 - Changed snippet prefixes `dv-` to `wdd-` according to the new name of the Associate Degree programme.
 
 ### 0.6.3

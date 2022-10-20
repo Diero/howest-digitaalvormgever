@@ -35,7 +35,10 @@ No specific requirements for this extension
 No known issues for this extension
 
 ## Release Notes
-### 0.7.1
+### 0.8.1
+- Fix: Bad Publishing
+
+### 0.8
 - Added a javascriptsnippet for a random function between min and max value
 
 ### 0.7

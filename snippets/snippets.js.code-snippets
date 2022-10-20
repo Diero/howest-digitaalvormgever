@@ -20,5 +20,11 @@
       "$LINE_COMMENT #region ***  DOM references                           ***********", "$LINE_COMMENT #endregion", "", "$LINE_COMMENT #region ***  Callback-Visualisation - show___         ***********", "$LINE_COMMENT #endregion", "", "$LINE_COMMENT #region ***  Callback-No Visualisation - callback___  ***********", "$LINE_COMMENT #endregion", "", "$LINE_COMMENT #region ***  Data Access - get___                     ***********", "$LINE_COMMENT #endregion", "", "$LINE_COMMENT #region ***  Event Listeners - listenTo___            ***********", "$LINE_COMMENT #endregion", "", "$LINE_COMMENT #region ***  Init / DOMContentLoaded                  ***********", "$0", "$LINE_COMMENT #endregion"
     ],
     "description": "Create regions for Javascript Data Access"
+  },
+  "Create randomfunction between min and max int": {
+    "prefix": ["wdd-random", "mct-random"],
+    "body": ["const createRandomNumber = function (min, max) {","\treturn Math.floor(Math.random() * (max - min + 1)) + min;","};"],
+    "description": "Create randomfunction between min and max int"
   }
+
 }

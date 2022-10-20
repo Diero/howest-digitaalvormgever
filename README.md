@@ -6,6 +6,7 @@ This is a Visual Code Extension written for Associate Degree Programme [Web Deve
 
 This extension contains snippets used in the courses:
 - Web Development
+- Coding Skills
 - Advanced Web development
 - Scripting
 - Front-end
@@ -23,7 +24,7 @@ This extension contains snippets used in the courses:
 - `wdd-authorization-handledata`<sup>*</sup>: create a handleData function (with bearer token authorization)
 - `wdd-domcontentloaded`<sup>*</sup>: create a DOMContentLoaded eventlistener
 - `wdd-dataregion`<sup>*</sup>: create regions for Javascript Data Access
-
+- `wdd-random`<sup>*</sup>: create a random function between min and max value
 
 <sup>*</sup> All `wdd-` prefixes can be replaced with `mct-` prefixes, as prefered
 ## Requirements
@@ -34,6 +35,9 @@ No specific requirements for this extension
 No known issues for this extension
 
 ## Release Notes
+### 0.7.1
+- Added a javascriptsnippet for a random function between min and max value
+
 ### 0.7
 - Changed snippet prefixes `dv-` to `wdd-` according to the new name of the Associate Degree programme.
 

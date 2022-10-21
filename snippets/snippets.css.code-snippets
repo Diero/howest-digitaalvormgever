@@ -11,7 +11,7 @@
   },
   "media query (min)": {
     "prefix": ["wdd-mediaquery-min", "mct-mediaquery-min"],
-    "body": ["@media (min-width: ${1|576,768,992,1200,1400|}px) {", "\t ${0}", "}", ""],
+    "body": ["@media (min-width: ${1|577,769,993,1201,1401|}px) {", "\t ${0}", "}", ""],
     "description": "Creating mediaquery from specific Bootstrap breakpoint"
   },
   "media query (max)": {

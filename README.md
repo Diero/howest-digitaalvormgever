@@ -35,6 +35,9 @@ No specific requirements for this extension
 No known issues for this extension
 
 ## Release Notes
+### 0.9
+- Changed the values of wdd-mediaquery-min to 577,769,993,1201,1401 (Bootstrap breakpoints)
+
 ### 0.8.1
 - Fix: Bad Publishing
 

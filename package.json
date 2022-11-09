@@ -1,6 +1,6 @@
 {
     "name": "howest-digitaalvormgever",
-    "displayName": "Howest Web Development & Design (WDD) - Howest Multimedia en Creatieve Technologie (MCT)",
+    "displayName": "Howest Web Development & Design (WDD) - Howest Multimedia en Creative Technologie (MCT)",
     "description": "Extension to the Associate Degree Programme Web Development & Design @ Howest",
     "publisher": "Howest-DigitaalVormgever",
     "icon": "images/logo.png",
@@ -25,6 +25,10 @@
             {
                 "language": "javascript",
                 "path": "./snippets/snippets.js.code-snippets"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/snippets.py.code-snippets"
             }
         ]
     }

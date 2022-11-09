@@ -1,0 +1,13 @@
+{
+  "Public property getter and setter": {
+    "prefix": ["mct-ppropgs", "mct-public-property-getter-setter"],
+    "body": ["$LINE_COMMENT ********** property ${1:foo} - (setter/getter) ***********", "@property", "def ${1:foo}(self) -> ${2:type}:", "\t$BLOCK_COMMENT_START The ${1:foo} property. $BLOCK_COMMENT_END", "\treturn self.__${1:foo}", "", "@${1:foo}.setter", "def ${1:foo}(self, value: ${2:type}) -> None:", "\tself.__${1:foo} = value", "", "$0"],
+    "description": "Create a public property with getter en setter"
+  },
+
+  "Public property getter": {
+    "prefix": ["mct-ppropg", "mct-public-property-getter"],
+    "body": ["$LINE_COMMENT ********** property ${1:foo} - (enkel getter) ***********", "@property", "def ${1:foo}(self) -> ${2:type}:", "\t$BLOCK_COMMENT_START The ${1:foo} property. $BLOCK_COMMENT_END", "\treturn self.__${1:foo}", "", "$0"],
+    "description": "Create a public property with getter"
+  }
+}

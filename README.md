@@ -34,7 +34,12 @@ No specific requirements for this extension
 ## Known Issues
 No known issues for this extension
 
+
+
 ## Release Notes
+### 0.10
+- Added getter and setter snippet for Python in MCT
+
 ### 0.9
 - Changed the values of wdd-mediaquery-min to 577,769,993,1201,1401 (Bootstrap breakpoints)
 

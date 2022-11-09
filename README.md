@@ -5,28 +5,33 @@ This is a Visual Code Extension written for Associate Degree Programme [Web Deve
 ## Features
 
 This extension contains snippets used in the courses:
-- Web Development
-- Coding Skills
-- Advanced Web development
-- Scripting
-- Front-end
-- Full Stack Web Development
+- Web Development (WDD)
+- Coding Skills (WDD)
+- Advanced Web development (WDD)
+- Front-end (WDD)
+- Basic Programming (MCT)
+- Full Stack Web Development (MCT)
 
 
-### CSS Snippets
+### CSS Snippets (*)
 - `wdd-itcss`<sup>*</sup>: creating ITCSS-structure in CSS/SCSS (without Bootstrap)
 - `wdd-itcss-bootstrap`<sup>*</sup>: creating ITCSS-structure in CSS/SCSS (with Bootstrap section)
 - `wdd-mediaquery-min`<sup>*</sup>: creating mediaquery from specific Bootstrap breakpoint
 - `wdd-mediaquery-max`<sup>*</sup>: creating mediaquery to specific Bootstrap breakpoint
 
-### JS Snippets
+### JS Snippets (*)
 - `wdd-handledata`<sup>*</sup>: create a handleData function (basic)
 - `wdd-authorization-handledata`<sup>*</sup>: create a handleData function (with bearer token authorization)
 - `wdd-domcontentloaded`<sup>*</sup>: create a DOMContentLoaded eventlistener
 - `wdd-dataregion`<sup>*</sup>: create regions for Javascript Data Access
 - `wdd-random`<sup>*</sup>: create a random function between min and max value
 
-<sup>*</sup> All `wdd-` prefixes can be replaced with `mct-` prefixes, as prefered
+### Python Snippets
+- `mct-ppropgs` or `mct-public-property-getter-setter`: create a public property getter and setter
+- `mct-ppropgs` or `mct-public-property-getter`: create a public property getter
+
+(*) <sup>*</sup> All `wdd-` prefixes can be replaced with `mct-` prefixes, as prefered
+
 ## Requirements
 
 No specific requirements for this extension

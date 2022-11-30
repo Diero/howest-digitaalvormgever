@@ -29,6 +29,10 @@
             {
                 "language": "python",
                 "path": "./snippets/snippets.py.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/snippets.html.code-snippets"
             }
         ]
     }

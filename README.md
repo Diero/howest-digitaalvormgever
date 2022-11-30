@@ -44,8 +44,10 @@ No specific requirements for this extension
 No known issues for this extension
 
 
-
 ## Release Notes
+### 0.11.1
+- Added HTML snippets for bootstrap CSS en JS (via CDN)
+
 ### 0.10
 - Added getter and setter snippet for Python in MCT
 

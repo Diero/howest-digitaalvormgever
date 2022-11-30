@@ -30,6 +30,10 @@ This extension contains snippets used in the courses:
 - `mct-ppropgs` or `mct-public-property-getter-setter`: create a public property getter and setter
 - `mct-ppropgs` or `mct-public-property-getter`: create a public property getter
 
+### HTML Snippets
+- `bs5-css`: Create a HTML link to Boostrap CDN CSS
+- `bs5-js`: Create a HTML link to Boostrap CDN JS (with Popper)
+
 (*) <sup>*</sup> All `wdd-` prefixes can be replaced with `mct-` prefixes, as prefered
 
 ## Requirements

@@ -7,7 +7,6 @@ This is a Visual Code Extension written for Associate Degree Programme [Web Deve
 This extension contains snippets used in the courses:
 - Web Development (WDD)
 - Coding Skills (WDD)
-- Advanced Web development (WDD)
 - Front-end (WDD)
 - Basic Programming (MCT)
 - Full Stack Web Development (MCT)
@@ -33,6 +32,8 @@ This extension contains snippets used in the courses:
 ### HTML Snippets
 - `bs5-css`: Create a HTML link to Boostrap CDN CSS
 - `bs5-js`: Create a HTML link to Boostrap CDN JS (with Popper)
+- `wdd-responsive-picture`: Create HTML code for an responsive picture using picture tag and sources
+- `wdd-responsive-image`: Create HTML code for an responsive picture using img and srcset
 
 (*) <sup>*</sup> All `wdd-` prefixes can be replaced with `mct-` prefixes, as prefered
 
@@ -45,6 +46,10 @@ No known issues for this extension
 
 
 ## Release Notes
+### 0.12
+- Added HTML snippets for responsive images
+- Updated Bootstrap links to 5.3.2
+
 ### 0.11.1
 - Added HTML snippets for bootstrap CSS en JS (via CDN)
 

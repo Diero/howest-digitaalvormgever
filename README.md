@@ -1,14 +1,16 @@
-# Multimedia en Informatietechnologie - Digitaal Vormgever README
+# Digitale Vormgeving - README
 
-This is a Visual Code Extension written for Associate Degree Programme [Web Development & esign (Kortrijk)](https://https://www.howest.be/WDD) and Bachelor Degree Programme [Multimedia and Creative Technology (Kortrijk)](https://https://www.howest.be/mct), both at [Howest University of Applied Sciences](https://howest.be/en).
+This is a Visual Code Extension written for Associate Degree Programme [Web Development & Design (Kortrijk)](https://https://www.howest.be/WDD) and two Bachelor Degree Programmes: [Multimedia and Creative Technology (Kortrijk)](https://https://www.howest.be/mct) and [Creative Technology & AI (Kortrijk)](https://https://www.howest.be/mct), all at [Howest University of Applied Sciences](https://www.howest.be/en).
 
 ## Features
 
 This extension contains snippets used in the courses:
 - Web Development (WDD)
 - Coding Skills (WDD)
+- Dynamic Web Development (WDD)
+- API (WDD)
 - Front-end (WDD)
-- Basic Programming (MCT)
+- Basic Programming (MCT & CTAI)
 - Full Stack Web Development (MCT)
 
 
@@ -35,7 +37,7 @@ This extension contains snippets used in the courses:
 - `wdd-responsive-picture`: Create HTML code for an responsive picture using picture tag and sources
 - `wdd-responsive-image`: Create HTML code for an responsive picture using img and srcset
 
-(*) <sup>*</sup> All `wdd-` prefixes can be replaced with `mct-` prefixes, as prefered
+<sup>*</sup> All `wdd-` prefixes can be replaced with `mct-` prefixes, as prefered. Python snippets also exist with `ctai-` prefix.
 
 ## Requirements
 
@@ -46,6 +48,11 @@ No known issues for this extension
 
 
 ## Release Notes
+### 0.13
+- Added Creative Tech & AI to the description
+- Updated Python snippets to work with ctai prefix
+- Updated readme
+
 ### 0.12
 - Added HTML snippets for responsive images
 - Updated Bootstrap links to 5.3.2

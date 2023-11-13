@@ -13,7 +13,6 @@ This extension contains snippets used in the courses:
 - Basic Programming (MCT & CTAI)
 - Full Stack Web Development (MCT)
 
-
 ### CSS Snippets (*)
 - `wdd-itcss`<sup>*</sup>: creating ITCSS-structure in CSS/SCSS (without Bootstrap)
 - `wdd-itcss-bootstrap`<sup>*</sup>: creating ITCSS-structure in CSS/SCSS (with Bootstrap section)
@@ -29,7 +28,9 @@ This extension contains snippets used in the courses:
 
 ### Python Snippets
 - `mct-ppropgs` or `mct-public-property-getter-setter`: create a public property getter and setter
-- `mct-ppropgs` or `mct-public-property-getter`: create a public property getter
+- `ctai-ppropgs` or `ctai-public-property-getter-setter`: create a public property getter and setter
+- `mct-ppropg` or `mct-public-property-getter`: create a public property getter
+- `ctai-ppropg` or `ctai-public-property-getter`: create a public property getter
 
 ### HTML Snippets
 - `bs5-css`: Create a HTML link to Boostrap CDN CSS
@@ -48,6 +49,10 @@ No known issues for this extension
 
 
 ## Release Notes
+### 0.13.1
+- Typo in python snippets
+- Updated readme
+
 ### 0.13
 - Added Creative Tech & AI to the description
 - Updated Python snippets to work with ctai prefix

@@ -48,7 +48,12 @@ No specific requirements for this extension
 No known issues for this extension
 
 
+
 ## Release Notes
+### 0.13.2
+- Typo in python snippets
+- Updated readme
+
 ### 0.13.1
 - Typo in python snippets
 - Updated readme

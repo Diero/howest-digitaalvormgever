@@ -18,7 +18,8 @@ This extension contains snippets used in the courses:
 - `wdd-itcss-bootstrap`<sup>*</sup>: creating ITCSS-structure in CSS/SCSS (with Bootstrap section)
 - `wdd-mediaquery-min`<sup>*</sup>: creating mediaquery from specific Bootstrap breakpoint
 - `wdd-mediaquery-max`<sup>*</sup>: creating mediaquery to specific Bootstrap breakpoint
-
+- `wdd-flex-basis`<sup>*</sup>: easy writing of flex-basis property with gap
+  
 ### JS Snippets (*)
 - `wdd-handledata`<sup>*</sup>: create a handleData function (basic)
 - `wdd-authorization-handledata`<sup>*</sup>: create a handleData function (with bearer token authorization)

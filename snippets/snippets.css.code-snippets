@@ -18,5 +18,10 @@
     "prefix": ["wdd-mediaquery-max", "mct-mediaquery-max"],
     "body": ["@media (max-width: ${1|576,768,992,1200,1400|}px) {", "\t ${0}", "}", ""],
     "description": "Creating mediaquery to specific Bootstrap breakpoint"
+  },
+  "flex-basis": {
+    "prefix": ["wdd-flex-basis", "mct-flex-basis"],
+    "body": ["${1|$items|}:3;flex-basis: calc((100% / ${1}) - ${2|$gap, $spacing|} / ${1} * (${1} - 1));"],
+    "description": "Adding flex basis based on $items and $gap or $spacing"
   }
 }

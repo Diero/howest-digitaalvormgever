@@ -51,6 +51,10 @@ No known issues for this extension
 
 
 ## Release Notes
+### 0.18
+- Updated Bootstrap links to 5.3.3
+- Added Bootstrap Icon CDN Link  
+
 ### 0.13.2
 - Typo in python snippets
 - Updated readme

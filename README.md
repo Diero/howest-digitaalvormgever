@@ -13,6 +13,11 @@ This extension contains snippets used in the courses:
 - Front-end (WDD)
 - Basic Programming (MCT & CTAI)
 - Full Stack Web Development (MCT)
+- Project One (MCT)
+
+## Important Notes
+- All `wdd-` prefixes can be replaced with `mct-` prefixes, as prefered. 
+- Python snippets also exist with `ctai-` prefix.
 
 ### CSS Snippets (*)
 
@@ -23,6 +28,7 @@ This extension contains snippets used in the courses:
 - `wdd-flex-basis`<sup>*</sup>: easy writing of flex-basis property with gap
   
 ### JS Snippets (*)
+⚠️ `mct-`prefix uses _fat arrow functions_, while `wdd-` prefix uses _function expressions_.
 
 - `wdd-handledata`<sup>*</sup>: create a handleData function (basic)
 - `wdd-authorization-handledata`<sup>*</sup>: create a handleData function (with bearer token authorization)
@@ -44,7 +50,6 @@ This extension contains snippets used in the courses:
 - `wdd-responsive-picture`: Create HTML code for an responsive picture using picture tag and sources
 - `wdd-responsive-image`: Create HTML code for an responsive picture using img and srcset
 
-<sup>*</sup> All `wdd-` prefixes can be replaced with `mct-` prefixes, as prefered. Python snippets also exist with `ctai-` prefix.
 
 ## Requirements
 
@@ -55,6 +60,9 @@ No specific requirements for this extension
 No known issues for this extension
 
 ## Release Notes
+### 1.0.2
+- Changed the JS Snippets for MCT to use fat arrow functions
+- Updated README
 
 ### 1.0.1
 

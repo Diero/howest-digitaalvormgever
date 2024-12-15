@@ -60,8 +60,9 @@ No specific requirements for this extension
 No known issues for this extension
 
 ## Release Notes
-### 1.1.1
+### 1.1.2
 - Changed the JS Snippets for MCT to use fat arrow functions
+- fixed small issue with new handleData snippet
 - Updated README
 
 ### 1.0.1

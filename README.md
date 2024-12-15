@@ -60,7 +60,7 @@ No specific requirements for this extension
 No known issues for this extension
 
 ## Release Notes
-### 1.0.2
+### 1.1.1
 - Changed the JS Snippets for MCT to use fat arrow functions
 - Updated README
 

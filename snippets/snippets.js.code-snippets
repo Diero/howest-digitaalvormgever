@@ -107,5 +107,18 @@
       "const createRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;"
     ],
     "description": "Create randomfunction between min and max int"
-  }
+  },
+  "Create a aynchronous function": {
+    "prefix": [
+      "mct-getdata", "wdd-getdata"
+    ],
+    "body": [
+      "const get${1} = async (url) => {",
+      "\tconst repsonse = await fetch(url).catch((err) => console.error('Fetch-error:', err));",
+      "\tconst json = await repsonse.json().catch((err) => console.error('JSON-error:', err));",
+      "\tshow${1}(json);",
+      "};"
+    ],
+    "description": "Create an asynchronous fetch with JSON parsing"
+  },
 }

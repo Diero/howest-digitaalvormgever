@@ -30,6 +30,7 @@ This extension contains snippets used in the courses:
 ### JS Snippets (*)
 ⚠️ `mct-`prefix uses _fat arrow functions_, while `wdd-` prefix uses _function expressions_.
 
+- `wdd-getData`<sup>*</sup>: create an asynchronous fetch with JSON parsing
 - `wdd-handledata`<sup>*</sup>: create a handleData function (basic)
 - `wdd-authorization-handledata`<sup>*</sup>: create a handleData function (with bearer token authorization)
 - `wdd-domcontentloaded`<sup>*</sup>: create a DOMContentLoaded eventlistener
@@ -60,6 +61,10 @@ No specific requirements for this extension
 No known issues for this extension
 
 ## Release Notes
+### 1.2
+- Added asynchronous function snippet
+- Updated README
+
 ### 1.1.2
 - Changed the JS Snippets for MCT to use fat arrow functions
 - fixed small issue with new handleData snippet

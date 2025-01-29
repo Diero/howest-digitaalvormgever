@@ -60,7 +60,15 @@ No specific requirements for this extension
 
 No known issues for this extension
 
+
 ## Release Notes
+### 1.3
+- Added 3 snippets in JS of fetching data via API:
+    - `mct-data-get` (GET)
+    - `mct-data-delete` (DELETE)
+    - `mct-data-other` (POST / PUT / PATCH with body)
+- removed `mct-handledata` and `mct-authorization-handledata`
+
 ### 1.2
 - Added asynchronous function snippet
 - Updated README

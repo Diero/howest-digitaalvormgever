@@ -1,8 +1,8 @@
 {
-    "name": "howest-digitaalvormgever",
-    "displayName": "Howest Web Development & Design (WDD) - Howest Multimedia en Creative Technologie (MCT)",
+    "name": "howest-digitalevormgeving",
+    "displayName": "Howest Web Development & Design (WDD)",
     "description": "Extension to the Associate Degree Programme Web Development & Design @ Howest",
-    "publisher": "Howest-DigitaalVormgever",
+    "publisher": "Howest-DigitaleVormgeving",
     "icon": "images/logo.png",
     "version": "1.3.0",
     "repository": "https://github.com/Diero/howest-digitaalvormgever",

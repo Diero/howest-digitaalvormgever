@@ -96,7 +96,7 @@
     ],
     "body": [
       "const url = `${1}`",
-      "const response = await fetch(url, ).catch((err) => console.error('Fetch-error:', err));",
+      "const response = await fetch(url).catch((err) => console.error('Fetch-error:', err));",
       "const json = await response.json().catch((err) => console.error('JSON-error:', err));",
     ],
     "description": "CreaCreate a aynchronous data GET fetch with JSON parsing"

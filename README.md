@@ -62,6 +62,10 @@ No known issues for this extension
 
 
 ## Release Notes
+### 1.3.1
+- Fixed small type in 
+    - `mct-data-get` (GET)
+    
 ### 1.3
 - Added 3 snippets in JS of fetching data via API:
     - `mct-data-get` (GET)

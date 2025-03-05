@@ -4,7 +4,7 @@
     "description": "Extension to the Associate Degree Programme Web Development & Design @ Howest",
     "publisher": "Howest-DigitaleVormgeving",
     "icon": "images/logo.png",
-    "version": "1.3.1",
+    "version": "1.4.0",
     "repository": "https://github.com/Diero/howest-digitaalvormgever",
     "engines": {
         "vscode": "^1.62.0"

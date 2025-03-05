@@ -63,7 +63,7 @@ No known issues for this extension
 
 ## Release Notes
 
-### 1.4
+### 1.4.1
 - changed wdd-fetch-* to new syntax
 - changed wdd-random to new syntax
   

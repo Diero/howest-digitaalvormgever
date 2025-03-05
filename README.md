@@ -62,6 +62,11 @@ No known issues for this extension
 
 
 ## Release Notes
+
+### 1.4
+- changed wdd-fetch-* to new syntax
+- changed wdd-random to new syntax
+  
 ### 1.3.1
 - Fixed small type in 
     - `mct-data-get` (GET)

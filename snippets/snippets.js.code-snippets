@@ -1,7 +1,7 @@
 {
   "Create a DOMContentLoaded eventlistener (fatarrow)": {
     "prefix": ["wdd-domcontentloaded, mct-domcontentloaded"],
-    "body": ["const init = function(){", "\t$0", "}", "", "document.addEventListener('DOMContentLoaded',init);"],
+    "body": ["const init = () => {", "\t$0", "}", "", "document.addEventListener('DOMContentLoaded',init);"],
     "description": "Create a DOMContentLoaded eventlistener"
   },
 

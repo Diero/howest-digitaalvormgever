@@ -62,6 +62,8 @@ No known issues for this extension
 
 
 ## Release Notes
+### 1.4.2
+- Small error
 
 ### 1.4.1
 - changed wdd-fetch-* to new syntax

@@ -65,7 +65,7 @@ No known issues for this extension
 
 ### 1.5
 - fix error in the `domcontentloaded` snippet
-- added `wdd-fetch-get-with-autorization` snippet
+- added `wdd-fetch-get-auth` snippet
 
 ### 1.4.2
 - Small typo change

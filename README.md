@@ -62,15 +62,21 @@ No known issues for this extension
 
 
 ## Release Notes
+
+### 1.5
+- fix error in the `domcontentloaded` snippet
+- added `wdd-fetch-get-with-autorization` snippet
+
 ### 1.4.2
-- Small error
+- Small typo change
 
 ### 1.4.1
-- changed wdd-fetch-* to new syntax
-- changed wdd-random to new syntax
+- changed `wdd-fetch-*` to new syntax
+- changed `wdd-random` to new syntax
+- Changed the JS Snippets for `wdd` to use fat arrow functions
   
 ### 1.3.1
-- Fixed small type in 
+- Fixed small typo in 
     - `mct-data-get` (GET)
     
 ### 1.3

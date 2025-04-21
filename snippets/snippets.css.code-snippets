@@ -5,7 +5,7 @@
     "description": "IT-CSS Structure"
   },
   "IT-CSS Structure with Bootstrap": {
-    "prefix":["wdd-css-itcssbootstrap", "mct-css-itcssbootstrap"],
+    "prefix": ["wdd-css-itcssbootstrap", "mct-css-itcssbootstrap"],
     "body": ["$BLOCK_COMMENT_START---------------------------------------/*", " # SETTINGS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # GENERIC - BOOTSTRAP", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # ELEMENTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # OBJECTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # COMPONENTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # UTILITIES", "/*---------------------------------------*/"],
     "description": "IT-CSS Structure with Bootstrap"
   },

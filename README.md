@@ -62,7 +62,9 @@ No known issues for this extension
 
 
 ## Release Notes
-
+### 1.6
+- Added `wdd-querystring` snippet
+  
 ### 1.5
 - fix error in the `domcontentloaded` snippet
 - added `wdd-fetch-get-auth` snippet

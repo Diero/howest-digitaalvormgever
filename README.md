@@ -62,6 +62,9 @@ No known issues for this extension
 
 
 ## Release Notes
+### 1.7
+- changed the `wdd-mediaquery` to range
+  
 ### 1.6
 - Added `wdd-querystring` snippet
   

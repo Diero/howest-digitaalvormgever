@@ -9,14 +9,14 @@
     "body": ["$BLOCK_COMMENT_START---------------------------------------/*", " # SETTINGS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # GENERIC - BOOTSTRAP", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # ELEMENTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # OBJECTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # COMPONENTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # UTILITIES", "/*---------------------------------------*/"],
     "description": "IT-CSS Structure with Bootstrap"
   },
-  "media query (min)": {
-    "prefix": ["wdd-mediaquery-min", "mct-mediaquery-min"],
-    "body": ["@media (min-width: ${1|577,769,993,1201,1401|}px) {", "\t ${0}", "}", ""],
+  "media query (groter dan)": {
+    "prefix": ["wdd-mediaquery-groterdan", "mct-mediaquery-groterdan"],
+    "body": ["@media (width >= ${1|576,768,992,1200,1400|}px) {", "\t ${0}", "}", ""],
     "description": "Creating mediaquery from specific Bootstrap breakpoint"
   },
-  "media query (max)": {
-    "prefix": ["wdd-mediaquery-max", "mct-mediaquery-max"],
-    "body": ["@media (max-width: ${1|576,768,992,1200,1400|}px) {", "\t ${0}", "}", ""],
+  "media query (kleiner dan)": {
+    "prefix": ["wdd-mediaquery-kleinerdan", "mct-mediaquery-kleinerdan"],
+    "body": ["@media (width < ${1|576,768,992,1200,1400|}px) {", "\t ${0}", "}", ""],
     "description": "Creating mediaquery to specific Bootstrap breakpoint"
   },
   "flex-basis": {

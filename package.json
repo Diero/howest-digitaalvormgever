@@ -1,17 +1,68 @@
 {
     "name": "howest-digitalevormgeving",
-    "displayName": "Howest Web Development & Design (WDD)",
-    "description": "Extension to the Associate Degree Programme Web Development & Design @ Howest",
+    "displayName": "Howest Digital Design: Web Development & Design (WDD)",
+    "description": "Snippets for Digital Design: Web Development & Design, Multimedia & Creative Technology and Creative Technology & AI @ Howest University of Applied Sciences.",
     "publisher": "Howest-DigitaleVormgeving",
-    "icon": "images/logo.png",
-    "version": "1.7.0",
-    "repository": "https://github.com/Diero/howest-digitaalvormgever",
+    "version": "1.8.1",
     "engines": {
-        "vscode": "^1.62.0"
+        "vscode": "^1.90.0"
     },
+    "license": "MIT",
+    "homepage": "https://www.howest.be/WDD",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Diero/howest-digitaalvormgever.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Diero/howest-digitaalvormgever/issues"
+    },
+    "keywords": [
+        "howest",
+        "education",
+        "web",
+        "css",
+        "scss",
+        "javascript",
+        "python",
+        "bootstrap",
+        "responsive",
+        "mediaquery",
+        "itcss",
+        "snippet",
+        "vscode-snippets",
+        "snippets-collection"
+    ],
     "categories": [
         "Snippets"
     ],
+    "author": {
+        "name": "Howest Digital Design: Web Development & Design",
+        "url": "https://www.howest.be/wdd"
+    },
+    "galleryBanner": {
+        "color": "#0D1B2E",
+        "theme": "dark"
+    },
+    "preview": true,
+    "screenshots": [
+        {
+            "path": "images/preview.png",
+            "caption": "Preview: Howest Digital Design snippets overview"
+        },
+        {
+            "path": "images/screenshot-1.png",
+            "caption": "HTML snippets and Bootstrap starter"
+        },
+        {
+            "path": "images/screenshot-2.png",
+            "caption": "CSS/SCSS snippets including ITCSS and mediaqueries"
+        }
+    ],
+    "icon": "images/icon-128.png",
+    "extensionKind": [
+        "ui"
+    ],
+    "qna": false,
     "contributes": {
         "snippets": [
             {
@@ -35,5 +86,10 @@
                 "path": "./snippets/snippets.html.code-snippets"
             }
         ]
-    }
+    },
+    "activationEvents": [],
+    "scripts": {
+        "validate:snippets": "node scripts/validate-snippets.mjs"
+    },
+    "devDependencies": {}
 }

@@ -1,202 +1,58 @@
-# Digitale Vormgeving - README
-
-This is a Visual Code Extension written for Associate Degree Programme [Web Development & Design (Kortrijk)](https://https://www.howest.be/WDD) and two Bachelor Degree Programmes: [Multimedia and Creative Technology (Kortrijk)](https://https://www.howest.be/mct) and [Creative Technology & AI (Kortrijk)](https://https://www.howest.be/mct), all at [Howest University of Applied Sciences](https://www.howest.be/en).
-
-## Features
-
-This extension contains snippets used in the courses:
-
-- Web Development (WDD)
-- Coding Skills (WDD)
-- Dynamic Web Development (WDD)
-- API (WDD)
-- Front-end (WDD)
-- Basic Programming (MCT & CTAI)
-- Full Stack Web Development (MCT)
-- Project One (MCT)
+# Howest Digital Design — Visual Studio Code snippets
 
-## Important Notes
-- All `wdd-` prefixes can be replaced with `mct-` prefixes, as prefered. 
-- Python snippets also exist with `ctai-` prefix.
+[Contributing guidelines](CONTRIBUTING.md) — please read before contributing new snippets or changes.
 
-### CSS Snippets (*)
+This repository contains a collection of Visual Studio Code snippets used in several programs at Howest University of Applied Sciences (Web Development & Design, Multimedia & Creative Technology, and Creative Technology & AI). The snippets help students and teachers quickly generate common boilerplate for HTML, CSS/SCSS, JavaScript and Python.
 
-- `wdd-itcss`<sup>*</sup>: creating ITCSS-structure in CSS/SCSS (without Bootstrap)
-- `wdd-itcss-bootstrap`<sup>*</sup>: creating ITCSS-structure in CSS/SCSS (with Bootstrap section)
-- `wdd-mediaquery-min`<sup>*</sup>: creating mediaquery from specific Bootstrap breakpoint
-- `wdd-mediaquery-max`<sup>*</sup>: creating mediaquery to specific Bootstrap breakpoint
-- `wdd-flex-basis`<sup>*</sup>: easy writing of flex-basis property with gap
-  
-### JS Snippets (*)
-⚠️ `mct-`prefix uses _fat arrow functions_, while `wdd-` prefix uses _function expressions_.
+Important links
 
-- `wdd-getData`<sup>*</sup>: create an asynchronous fetch with JSON parsing
-- `wdd-handledata`<sup>*</sup>: create a handleData function (basic)
-- `wdd-authorization-handledata`<sup>*</sup>: create a handleData function (with bearer token authorization)
-- `wdd-domcontentloaded`<sup>*</sup>: create a DOMContentLoaded eventlistener
-- `wdd-dataregion`<sup>*</sup>: create regions for Javascript Data Access
-- `wdd-random`<sup>*</sup>: create a random function between min and max value
+- Howest Web Development & Design (WDD): https://www.howest.be/WDD
+- Howest Multimedia & Creative Technology (MCT): https://www.howest.be/mct
+- Howest Creative Technology & AI (CTAI): https://www.howest.be/mct
+- Repository: https://github.com/Diero/howest-digitaalvormgever
 
-### Python Snippets
+Features
 
-- `mct-ppropgs` or `mct-public-property-getter-setter`: create a public property getter and setter
-- `ctai-ppropgs` or `ctai-public-property-getter-setter`: create a public property getter and setter
-- `mct-ppropg` or `mct-public-property-getter`: create a public property getter
-- `ctai-ppropg` or `ctai-public-property-getter`: create a public property getter
+- Snippets for HTML, CSS/SCSS, JavaScript and Python.
+- Prefix conventions for different study tracks: `wdd-`, `mct-`, `ctai-`.
 
-### HTML Snippets
+Snippet catalog (short)
 
-- `bs5-css`: Create a HTML link to Boostrap CDN CSS
-- `bs5-js`: Create a HTML link to Boostrap CDN JS (with Popper)
-- `wdd-responsive-picture`: Create HTML code for an responsive picture using picture tag and sources
-- `wdd-responsive-image`: Create HTML code for an responsive picture using img and srcset
+| Example prefix | Language | Description |
+|---|---:|---|
+| `bs5-css`, `bs5-js`, `bs5-icon` | HTML | Bootstrap CDN links (CSS/JS/icons)
+| `wdd-itcss`, `mct-itcss` | CSS/SCSS | ITCSS structure template
+| `wdd-itcss-bootstrap`, `mct-itcss-bootstrap` | CSS/SCSS | ITCSS template with Bootstrap section
+| `wdd-mediaquery-min`, `mct-mediaquery-min` | CSS/SCSS | Media query for a specific breakpoint (min)
+| `wdd-mediaquery-max`, `mct-mediaquery-max` | CSS/SCSS | Media query for a specific breakpoint (max)
+| `wdd-domcontentloaded`, `mct-domcontentloaded` | JavaScript | DOMContentLoaded initialization boilerplate
+| `wdd-fetch-get`, `mct-fetch-get` | JavaScript | Async fetch with JSON parsing
+| `mct-ppropgs`, `ctai-ppropgs` | Python | Property getter + setter template
 
+See the full list inside the `snippets/` folder.
 
-## Requirements
+Notes
 
-No specific requirements for this extension
+- You can often replace the `wdd-` prefix with `mct-` (and `ctai-` for Python) where appropriate.
+- Older or deprecated snippets are sometimes kept with an `OLD-` prefix; they remain for reference but are not recommended for new code.
 
-## Known Issues
+Contributing
 
-No known issues for this extension
+If you want to add a new snippet or improve an existing one, please follow these guidelines:
 
+1. Prefix convention: use `wdd-`, `mct-` or `ctai-` depending on the target curriculum. Keep prefixes short and descriptive.
+2. Include clear `description` fields in snippet JSON and avoid placing commas inside a single prefix string (use an array for multiple prefixes).
+3. Validate JSON: add your snippet to the `snippets/` folder and run `npm run validate:snippets` (a validation script can be added to the project).
+4. Open a pull request with a short description and a sample usage or notes.
 
-## Release Notes
-### 1.7
-- changed the `wdd-mediaquery` to range
-  
-### 1.6
-- Added `wdd-querystring` snippet
-  
-### 1.5
-- fix error in the `domcontentloaded` snippet
-- added `wdd-fetch-get-auth` snippet
+Changelog
 
-### 1.4.2
-- Small typo change
+See `CHANGELOG.md` for the full history and detailed release notes.
 
-### 1.4.1
-- changed `wdd-fetch-*` to new syntax
-- changed `wdd-random` to new syntax
-- Changed the JS Snippets for `wdd` to use fat arrow functions
-  
-### 1.3.1
-- Fixed small typo in 
-    - `mct-data-get` (GET)
-    
-### 1.3
-- Added 3 snippets in JS of fetching data via API:
-    - `mct-data-get` (GET)
-    - `mct-data-delete` (DELETE)
-    - `mct-data-other` (POST / PUT / PATCH with body)
-- removed `mct-handledata` and `mct-authorization-handledata`
+License
 
-### 1.2
-- Added asynchronous function snippet
-- Updated README
+This repository is licensed under the MIT License — see the `LICENSE` file.
 
-### 1.1.2
-- Changed the JS Snippets for MCT to use fat arrow functions
-- fixed small issue with new handleData snippet
-- Updated README
+Need more help?
 
-### 1.0.1
-
-- Updated README
-  
-### 0.18
-
-- Updated Bootstrap links to 5.3.3
-- Added Bootstrap Icon CDN Link  
-
-### 0.13.2
-
-- Typo in python snippets
-- Updated readme
-
-### 0.13.1
-
-- Typo in python snippets
-- Updated readme
-
-### 0.13
-
-- Added Creative Tech & AI to the description
-- Updated Python snippets to work with ctai prefix
-- Updated readme
-
-### 0.12
-
-- Added HTML snippets for responsive images
-- Updated Bootstrap links to 5.3.2
-
-### 0.11.1
-
-- Added HTML snippets for bootstrap CSS en JS (via CDN)
-
-### 0.10
-
-- Added getter and setter snippet for Python in MCT
-
-### 0.9
-
-- Changed the values of wdd-mediaquery-min to 577,769,993,1201,1401 (Bootstrap breakpoints)
-
-### 0.8.1
-
-- Fix: Bad Publishing
-
-### 0.8
-
-- Added a javascriptsnippet for a random function between min and max value
-
-### 0.7
-
-- Changed snippet prefixes `dv-` to `wdd-` according to the new name of the Associate Degree programme.
-
-### 0.6.3
-
-- Fix: Bad Publishing
-
-### 0.6.2
-
-- Fix: [Issue](https://github.com/Diero/howest-digitaalvormgever/issues/1#issue-1271884562): Bootstrap ITCSS
-
-### 0.6.1
-
-- Added a javascriptsnippet for handling data with bearer token authorization
-- Fix documentation
-
-### 0.4.3
-
-- From now on you can choose between the snippet prefixes `dv-` and `mct-`.
-
-### 0.4.2
-
-- Release patch, development troubles
-
-### 0.4.1
-
-- Release patch, development troubles
-
-### 0.4.0
-
-- Accidental minor release
-
-### 0.3.0
-
-- Added three new javascriptsnippets for handling data, creating dataregions and adding a domcontentloadedevent.
-
-### 0.2.0
-
-- Changed snippet prefix from `mit-` to `dv-`
-- Added two new snippets for generating mediaqueries at Bootstrap breakpoints.
-
-### 0.1.1
-
-- Changed logo to transparent background
-- Added snippet schortcodes to features section in readme.
-
-### 0.1.0
-
-- First release of the extension with a few CSS/SCSS snippets.
+If you'd like the README expanded with screenshots, a complete table of all snippets, or if you want me to add the `validate-snippets` script now, tell me and I will implement it.

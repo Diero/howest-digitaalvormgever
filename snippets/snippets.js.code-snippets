@@ -12,7 +12,7 @@
   },
 
   "Create randomfunction between min and max int (fatarrow)": {
-    "prefix": ["mct-random, wdd-random"],
+    "prefix": ["mct-random", "wdd-random"],
     "body": ["const createRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;"],
     "description": "Create randomfunction between min and max int"
   },
@@ -20,13 +20,13 @@
   "Create a aynchronous data GET fetch": {
     "prefix": ["mct-fetch-get", "wdd-fetch-get"],
     "body": ["const url = `${1}`;", "const response = await fetch(url).catch((err) => console.error('Fetch-error:', err));", "const json = await response.json().catch((err) => console.error('JSON-error:', err));"],
-    "description": "CreaCreate a aynchronous data GET fetch with JSON parsing"
+    "description": "Create a aynchronous data GET fetch with JSON parsing"
   },
 
   "Create a aynchronous data GET fetch WITH AUTHORIZATION": {
     "prefix": ["mct-fetch-get-auth", "wdd-fetch-get-auth"],
     "body": ["const url = `${2}`;", "const response = await fetch(url, {", "\tmethod: 'GET',", "\theaders: {\n\t  'content-type': 'application/json',\n\t  Authorization: `Bearer \\${authToken\\}`,\n\t},", "});", "\nif (!response.ok) {\n\tconsole.error(`${response.status} - ${response.statusText}`);\n\treturn;\n}", "const json = await response.json().catch((err) => console.error('JSON-error:', err));"],
-    "description": "CreaCreate a aynchronous data GET fetch with JSON parsing"
+    "description": "Create a aynchronous data GET fetch with JSON parsing"
   },
 
   "Create a aynchronous data PUT / POST / PATCH fetch": {
@@ -45,23 +45,6 @@
     "prefix": ["mct-querystring", "wdd-querystring"],
     "body": ["const getQueryStringValue = (${1}) => {", "\tconst queryString = window.location.search;", "\tconst urlParams = new URLSearchParams(${2});", "\treturn urlParams.get(${1});", "};"],
     "description": "Create a function to get a querystring value"
-  },
-
-  "OLD Create randomfunction between min and max int": {
-    "prefix": ["OLD-random"],
-    "body": ["const createRandomNumber = function (min, max) {", "\treturn Math.floor(Math.random() * (max - min + 1)) + min;", "};"],
-    "description": "Create randomfunction between min and max int"
-  },
-
-  "OLD Create a handleData function (basic)": {
-    "prefix": ["OLD-handledata"],
-    "body": ["const handleData = function (url, callbackFunctionName, callbackErrorFunctionName = null, method = 'GET', body = null) {\n  fetch(url, {\n\t\tmethod: method,\n\t\tbody: body,\n\t\t//headers: {\n\t\t\t//'content-type': 'application/json'\n\t\t//},\n  })\n\t.then(function(response) {\n\t\tif (!response.ok) {\n\t\t\tconsole.warn(`>> Probleem bij de fetch(). Statuscode: ${response.status}`);\n\t\t\tif (callbackErrorFunctionName) {\n\t\t\t\tconsole.warn(`>> Callback errorfunctie ${callbackErrorFunctionName.name}(response) wordt opgeroepen`);\n\t\t\t\tcallbackErrorFunctionName(response); \n\t\t\t} else {\n\t\t\t\tconsole.warn('>> Er is geen callback errorfunctie meegegeven als parameter');\n\t\t\t}\n\t\t} else {\n\t\t\tconsole.info('>> Er is een response teruggekomen van de server');\n\t\t\treturn response.json();\n\t\t}\n\t})\n\t.then(function(jsonObject) {\n\t\tif (jsonObject) {\n\t\t\tconsole.info('>> JSONobject is aangemaakt');\n\t\t\tconsole.info(`>> Callbackfunctie ${callbackFunctionName.name}(response) wordt opgeroepen`);\n\t\t\tcallbackFunctionName(jsonObject);\n\t\t}\n\t})\n\t.catch(function(error) {\n\t\tconsole.warn(`>>fout bij verwerken json: \\${error\\}`);\n\t\t\tif (callbackErrorFunctionName) {\n\t\t\t\tcallbackErrorFunctionName(undefined);\n\t\t}\n\t})\n};"],
-    "description": "Adding handleDatafunction to a JS file"
-  },
-
-  "OLD Create a handleData function (with authorization)": {
-    "prefix": ["OLD-authorization-handledata"],
-    "body": ["const handleData = function (url, callbackFunctionName, callbackErrorFunctionName = null, method = 'GET', body = null, authToken = null) {\n  fetch(url, {\n\tmethod: method,\n\tbody: body,\n\theaders: {\n\t  'content-type': 'application/json',\n\t  'Authorization': `Bearer \\${authToken\\}`\n\t},\n  })\n\t.then(function(response) {\n\t\tif (!response.ok) {\n\t\t\tconsole.warn(`>> Probleem bij de fetch(). Statuscode: ${response.status}`);\n\t\t\tif (callbackErrorFunctionName) {\n\t\t\t\tconsole.warn(`>> Callback errorfunctie ${callbackErrorFunctionName.name}(response) wordt opgeroepen`);\n\t\t\t\tcallbackErrorFunctionName(response); \n\t\t\t} else {\n\t\t\t\tconsole.warn('>> Er is geen callback errorfunctie meegegeven als parameter');\n\t\t\t}\n\t\t} else {\n\t\t\tconsole.info('>> Er is een response teruggekomen van de server');\n\t\t\treturn response.json();\n\t\t}\n\t})\n\t.then(function(jsonObject) {\n\t\tif (jsonObject) {\n\t\t\tconsole.info('>> JSONobject is aangemaakt');\n\t\t\tconsole.info(`>> Callbackfunctie ${callbackFunctionName.name}(response) wordt opgeroepen`);\n\t\t\tcallbackFunctionName(jsonObject);\n\t\t}\n\t})\n\t.catch(function(error) {\n\t\tconsole.warn(`>>fout bij verwerken json: \\${error\\}`);\n\t\t\tif (callbackErrorFunctionName) {\n\t\t\tcallbackErrorFunctionName(undefined);\n\t\t}\n\t})\n};"],
-    "description": "Adding handleDatafunction with bearer token authorization to a JS file"
   }
+
 }

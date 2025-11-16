@@ -1,21 +1,21 @@
 {
   "IT-CSS Structure": {
-    "prefix": ["wdd-css-itcss", "mct-css-itcss"],
+    "prefix": ["wdd-itcss", "mct-itcss"],
     "body": ["$BLOCK_COMMENT_START---------------------------------------/*", " # SETTINGS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # GENERIC", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # ELEMENTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # OBJECTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # COMPONENTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # UTILITIES", "/*---------------------------------------*/"],
     "description": "IT-CSS Structure"
   },
   "IT-CSS Structure with Bootstrap": {
-    "prefix": ["wdd-css-itcssbootstrap", "mct-css-itcssbootstrap"],
+    "prefix": ["wdd-itcss-bootstrap", "mct-itcss-bootstrap"],
     "body": ["$BLOCK_COMMENT_START---------------------------------------/*", " # SETTINGS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # GENERIC - BOOTSTRAP", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # ELEMENTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # OBJECTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # COMPONENTS", "/*---------------------------------------$BLOCK_COMMENT_END", "", "$BLOCK_COMMENT_START---------------------------------------/*", " # UTILITIES", "/*---------------------------------------*/"],
     "description": "IT-CSS Structure with Bootstrap"
   },
   "media query (groter dan)": {
-    "prefix": ["wdd-mediaquery-groterdan", "mct-mediaquery-groterdan"],
+    "prefix": ["wdd-mediaquery-min", "mct-mediaquery-min"],
     "body": ["@media (width >= ${1|576,768,992,1200,1400|}px) {", "\t ${0}", "}", ""],
     "description": "Creating mediaquery from specific Bootstrap breakpoint"
   },
   "media query (kleiner dan)": {
-    "prefix": ["wdd-mediaquery-kleinerdan", "mct-mediaquery-kleinerdan"],
+    "prefix": ["wdd-mediaquery-max", "mct-mediaquery-max"],
     "body": ["@media (width < ${1|576,768,992,1200,1400|}px) {", "\t ${0}", "}", ""],
     "description": "Creating mediaquery to specific Bootstrap breakpoint"
   },

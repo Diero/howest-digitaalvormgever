@@ -2,3 +2,38 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+
+# Packaging / build artifacts
+node_modules/
+dist/
+coverage/
+*.vsix
+
+# Logs and OS files
+*.log
+.DS_Store
+npm-debug.log*
+
+# Editor tooling
+.vs/
+.vscodeignore
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Repo files not needed in the package
+scripts/
+tests/
+README.md
+CHANGELOG.md
+
+# Large image/source files
+images/**/*.psd
+images/**/*.ai
+images/**/*.xcf
+**/*.psd
+**/*.ai
+**/*.xcf
+
+# Environment
+.env

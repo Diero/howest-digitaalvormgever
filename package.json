@@ -87,7 +87,6 @@
             }
         ]
     },
-    "activationEvents": [],
     "scripts": {
         "validate:snippets": "node scripts/validate-snippets.mjs"
     },

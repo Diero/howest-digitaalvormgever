@@ -6,7 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-## [1.8]
+## [1.8.3]
 - Added a small maintenance release containing documentation and metadata updates and minor snippet fixes.
 - Translated and cleaned up `README.md` (English).
 - Fixed broken links and typos in the README.

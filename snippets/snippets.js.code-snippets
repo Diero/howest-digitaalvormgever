@@ -11,6 +11,12 @@
     "description": "Create regions for Javascript Data Access"
   },
 
+  "Create randomfunction between min and max int": {
+    "prefix": ["wdd-random-old"],
+    "body": ["const createRandomNumber = function (min, max) { Math.floor(Math.random() * (max - min + 1)) + min;}"],
+    "description": "Create randomfunction between min and max int"
+  },
+
   "Create randomfunction between min and max int (fatarrow)": {
     "prefix": ["mct-random", "wdd-random"],
     "body": ["const createRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;"],

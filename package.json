@@ -3,7 +3,7 @@
     "displayName": "Howest Digital Design: Web Development & Design (WDD)",
     "description": "Snippets for Digital Design: Web Development & Design, Multimedia & Creative Technology and Creative Technology & AI @ Howest University of Applied Sciences.",
     "publisher": "Howest-DigitaleVormgeving",
-    "version": "1.8.3",
+    "version": "1.8.4",
     "engines": {
         "vscode": "^1.90.0"
     },

@@ -13,7 +13,7 @@
 
   "Create randomfunction between min and max int": {
     "prefix": ["wdd-random-old"],
-    "body": ["const createRandomNumber = function (min, max) { Math.floor(Math.random() * (max - min + 1)) + min;}"],
+    "body": ["const createRandomNumber = function (min, max) {return Math.floor(Math.random() * (max - min + 1)) + min;}"],
     "description": "Create randomfunction between min and max int"
   },
 

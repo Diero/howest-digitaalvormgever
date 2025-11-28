@@ -6,6 +6,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [1.8.5]
+- added return to `wdd-random-old`.
+
 ## [1.8.4]
 - added `wdd-random-old` back to the code.
 

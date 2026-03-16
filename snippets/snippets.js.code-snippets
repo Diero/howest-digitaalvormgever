@@ -49,8 +49,7 @@
 
   "Create a function to get a querystring value": {
     "prefix": ["mct-querystring", "wdd-querystring"],
-    "body": ["const getQueryStringValue = (${1}) => {", "\tconst queryString = window.location.search;", "\tconst urlParams = new URLSearchParams(${2});", "\treturn urlParams.get(${1});", "};"],
+    "body": ["const getQueryStringValue = (key) => {", "\tconst queryString = window.location.search;", "\tconst urlParams = new URLSearchParams(queryString);", "\treturn urlParams.get(key);", "};"],
     "description": "Create a function to get a querystring value"
   }
-
 }

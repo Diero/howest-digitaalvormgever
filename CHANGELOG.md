@@ -5,6 +5,10 @@ All notable changes to the "mit-webskills-extension" extension will be documente
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
 ## [Unreleased]
+
+## [1.8.7]
+- added `mct-fetch-other-auth` en `mct-fetch-delete-auth`
+
 ## [1.8.6]
 - small fix in `wdd-querystring`
 

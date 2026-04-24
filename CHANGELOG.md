@@ -6,6 +6,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [1.8.8]
+- small fix in `mct-fetch-delete-auth`
+
 ## [1.8.7]
 - added `mct-fetch-other-auth` en `mct-fetch-delete-auth`
 

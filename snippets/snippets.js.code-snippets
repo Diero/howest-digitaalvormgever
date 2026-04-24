@@ -58,7 +58,7 @@
     "body": ["const url = `${2}`", "const response = await fetch(url, {",
       "\tmethod: 'DELETE',",
       "\theaders: {\n\t  'Content-Type': 'application/json',\n\t  Authorization: `Bearer \\${authToken\\}`,\n\t},",
-      "});.catch((err) => console.error('Fetch-error:', err));", "const json = await response.json().catch((err) => console.error('JSON-error:', err));"],
+      "}).catch((err) => console.error('Fetch-error:', err));", "const json = await response.json().catch((err) => console.error('JSON-error:', err));"],
     "description": "Create an asynchronous fetch - POST / PUT / PATCH with JSON parsing"
   },
 

@@ -31,7 +31,7 @@
 
   "Create a aynchronous data GET fetch WITH AUTHORIZATION": {
     "prefix": ["mct-fetch-get-auth", "wdd-fetch-get-auth"],
-    "body": ["const url = `${2}`;", "const response = await fetch(url, {", "\tmethod: 'GET',", "\theaders: {\n\t  'content-type': 'application/json',\n\t  Authorization: `Bearer \\${authToken\\}`,\n\t},", "});", "\nif (!response.ok) {\n\tconsole.error(`${response.status} - ${response.statusText}`);\n\treturn;\n}", "const json = await response.json().catch((err) => console.error('JSON-error:', err));"],
+    "body": ["const url = `${2}`;", "const response = await fetch(url, {", "\tmethod: 'GET',", "\theaders: {\n\t  'Content-Type': 'application/json',\n\t  Authorization: `Bearer \\${authToken\\}`,\n\t},", "});", "\nif (!response.ok) {\n\tconsole.error(`${response.status} - ${response.statusText}`);\n\treturn;\n}", "const json = await response.json().catch((err) => console.error('JSON-error:', err));"],
     "description": "Create a aynchronous data GET fetch with JSON parsing"
   },
 
@@ -41,9 +41,24 @@
     "description": "Create a aynchronous data PUT / POST / PATCH fetch with JSON parsing"
   },
 
+    "Create a aynchronous data PUT / POST / PATCH fetch WITH AUTHORIZATION": {
+    "prefix": ["mct-fetch-other-auth", "wdd-fetch-other-auth"],
+    "body": ["const url = `${2}`;", "const response = await fetch(url, {", "\tmethod: ${1|'POST','PUT','PATCH'|},", "\theaders: {\n\t  'Content-Type': 'application/json',\n\t  Authorization: `Bearer \\${authToken\\}`,\n\t},", "\tbody: body", "}).catch((err) => console.error('Fetch-error:', err));", "const json = await response.json().catch((err) => console.error('JSON-error:', err));"],
+    "description": "Create a aynchronous data PUT / POST / PATCH fetch with JSON parsing"
+  },
+
   "Create a aynchronous data DELETE fetch": {
     "prefix": ["mct-fetch-delete", "wdd-fetch-delete"],
     "body": ["const url = `${2}`", "const response = await fetch(url, {", "\tmethod: 'DELETE'", "}).catch((err) => console.error('Fetch-error:', err));", "const json = await response.json().catch((err) => console.error('JSON-error:', err));"],
+    "description": "Create an asynchronous fetch - POST / PUT / PATCH with JSON parsing"
+  },
+
+    "Create a aynchronous data DELETE fetch WITH AUTHORIZATION": {
+    "prefix": ["mct-fetch-delete-auth", "wdd-fetch-delete-auth"],
+    "body": ["const url = `${2}`", "const response = await fetch(url, {",
+      "\tmethod: 'DELETE',",
+      "\theaders: {\n\t  'Content-Type': 'application/json',\n\t  Authorization: `Bearer \\${authToken\\}`,\n\t},",
+      "});.catch((err) => console.error('Fetch-error:', err));", "const json = await response.json().catch((err) => console.error('JSON-error:', err));"],
     "description": "Create an asynchronous fetch - POST / PUT / PATCH with JSON parsing"
   },
 
